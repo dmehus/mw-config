@@ -1493,6 +1493,14 @@ $wgManageWikiExtensions = [
 			'conflicts' => false,
 			'requires' => [],
 		],
+		'pageassessments' => [
+			'name' => 'PageAssessments',
+			'linkPage' => 'https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:PageAssessments',
+			'var' => 'wmgUsePageAssessments',
+			'conflicts' => false,
+			'requires' => [],
+			],
+		],
 		'pagedisqus' => [
 			'name' => 'PageDisqus',
 			'linkPage' => 'https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:PageDisqus',
