@@ -1498,6 +1498,11 @@ $wgManageWikiExtensions = [
 			'linkPage' => 'https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:PageAssessments',
 			'var' => 'wmgUsePageAssessments',
 			'conflicts' => false,
+			'install' => [
+				'sql' => [
+					'page_assessments' => "$IP/extensions/PageAssessments/sql/create-table--page_assessments.sql",
+					'page_assessments_projects' => "$IP/extensions/PageAssessments/sql/create-table--page_assessments_projects.sql",
+				],
 			'requires' => [],
 			],
 		],
